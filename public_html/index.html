@@ -11,155 +11,194 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width"/>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>
-            .fullscreen{
-                width: 100%;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    </head>
-    <body>
-        <main>
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                        <li ><a href="index.html">SWEATSHIRTS</a></li>
-                        <li><a href="camisetas.html">SHIRTS</a></li>
-                        <li><a href="Tenis.html">SNEAKERS</a></li> 
-                        <li><a href="Oculos.html">GLASSES</a></li> 
-                    </ul>  
-                </div>
-            </nav>
-            <marquee behavior="alternate"><img src="img/banner-oakley.jpg" class="fullscreen"></marquee>
-            <div>
-                <h3 class="text-center">Novidades</h3>
-            </div>
-            <div class="row">
-                <div class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/fleece-masc-mod-rio-white-po_71602530_888896746369.jpg" width="200px"  height="200px"/>
-                        <div>
-                            <h4>FLEECE MASC MOD RIO WHITE PO</h4> 
-                            <h5>Protege do frio</h5>
-                        </div>
-                    </figure>   
-                    <div class="btn-group">
-                        <a class=" btn btn-default"> R$ 390.00</a>
-                        <a class=" btn  btn-default btn-primary">
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar
-                            </span>
-                        </a>
-                    </div>  
-                </div>
-                <div class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/960611-MLB20581574432_022016-Y.jpg" width="187px" height="187px"/>
-                        <div>
-                            <h4>Moletom LRG PRETO</h4> 
-                            <h5 class>The Loom Hoodie is constructed of viscose/spandex fleece - peached microfiber and poly mesh featuring color blocked panels. </h5>
-                        </div>
-                    </figure>   
-                    <div class="btn-group">      
-                        <a class=" btn btn-default  "> R$ 300.00</a>
-                        <a class="btn  btn-default btn-primary  ">
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar
-                            </span>
-                        </a>
-                    </div>  
-                </div>
-                <div class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/moletom-agent_51543723_888896261602.jpg" width="300px" height="200px" />
-                        <div>
-                            <h4>
-                                MOLETOM AGENT
-                            </h4> 
-                            <h5>Discolado</h5>
-                        </div>
-                    </figure>   
-                    <div class="btn-group">      
-                        <a  class=" btn btn-default  "> R$ 500.00</a>
-                        <a  class="btn  btn-default btn-primary  ">
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar
-                            </span>
-                        </a>
-                    </div>  
-                </div>
-            </div>
-            <div class="row">
-                <div class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/Oakley-Moletom-Oakley-Kanguru-Bark-9742-91113-1-zoom.jpg" width="187px"  height="187px"/>
-                        <div>
-                            <h4>Moletom Oakley Kanguru</h4> 
-                            <h5>Protege de rajadas de vento </h5>
-                        </div>
-                    </figure>   
-                    <div class="btn-group">
-                        <a   class=" btn btn-default  "> R$ 310.00</a>
-                        <a   class="btn  btn-default btn-primary  "> 
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar 
-                            </span>
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
 
-                        </a>
-                    </div>  
-                </div>
-                <div  class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/Reef-Moletom-Reef-Chop-3888-226311-1-zoom.jpg" width="187px" height="187px"/>
-                        <div>
-                            <h4>Moletom Reef</h4> 
-                            <h5> Blusa de Moletom Reef Florence Preto.  </h5>
+                .fullscreen{
+                    width: 100%;
+                }
+                .fullscreen2{
+                    width: 60%;
+                }
+            </style>
+        </head>
+        <body>
+            <main>
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li ><a href="index.html">MOLETONS</a></li>
+                            <li><a href="camisetas.html">CAMISETAS</a></li>
+                            <li><a href="Tenis.html">TÊNIS </a></li> 
+                            <li><a href="Oculos.html">REGATA</a></li> 
+                        </ul>  
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="container fullscreen">
+                        <br>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="img/banner-oakley.jpg"  width="460" height="345" class="fullscreen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/Nike-SB-Team-Banner-black.jpg"  width="460" height="345" class="fullscreen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/Quiksilver_BRAND-BANNER_120419_01.jpg"  width="460" height="345" class="fullscreen">
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/reef_banner.jpg"  width="460" height="345" class="fullscreen">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                    </figure>   
-                    <div class="btn-group">      
-                        <a   class=" btn btn-default  "> R$ 97.00</a>
-                        <a   class="btn  btn-default btn-primary  ">
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar
-                            </span>
-                        </a>
-                    </div>  
-                </div>
-                <div class="thumbnail text-center col-md-4 ">
-                    <figure>
-                        <img src="img/Quiksilver-Moletom-Quiksilver-Shiner-II---Infanto-Juvenil-5789-123201-1-zoom.jpg" width="
-                             187px" height="187px" />
-                        <div>
-                            <h4>
-                                MOLETOM QUIKSILVER
-                            </h4> 
-                            <h5> Elegante </h5>
+                    </div>
+                    <div>
+                        <h3 class="text-center">Novidades</h3>
+                    </div>
+                    <div class="row">
+                        <div class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/fleece-masc-mod-rio-white-po_71602530_888896746369.jpg" width="200px"  height="200px"/>
+                                <div>
+                                    <h4>FLEECE MASC MOD RIO WHITE PO</h4> 
+                                    <h5>Protege do frio</h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">
+                                <a class=" btn btn-default"> R$ 390.00</a>
+                                <a class=" btn  btn-default btn-primary">
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>  
                         </div>
-                    </figure>   
-                    <div class="btn-group">      
-                        <a  class=" btn btn-default"> R$ 290.00</a>
-                        <a  class="btn  btn-default btn-primary">  
-                            <span class="glyphicon glyphicon-shopping-cart">
-                                Comprar
-                            </span>
-                        </a>
-                    </div>  
+                        <div class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/960611-MLB20581574432_022016-Y.jpg" width="187px" height="187px"/>
+                                <div>
+                                    <h4>Moletom LRG PRETO</h4> 
+                                    <h5 class>The Loom Hoodie is constructed of viscose/spandex fleece - peached microfiber and poly mesh featuring color blocked panels. </h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">      
+                                <a class=" btn btn-default  "> R$ 300.00</a>
+                                <a class="btn  btn-default btn-primary  ">
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>  
+                        </div>
+                        <div class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/moletom-agent_51543723_888896261602.jpg" width="300px" height="200px" />
+                                <div>
+                                    <h4>
+                                        MOLETOM AGENT
+                                    </h4> 
+                                    <h5>Discolado</h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">      
+                                <a  class=" btn btn-default  "> R$ 500.00</a>
+                                <a  class="btn  btn-default btn-primary  ">
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/Oakley-Moletom-Oakley-Kanguru-Bark-9742-91113-1-zoom.jpg" width="187px"  height="187px"/>
+                                <div>
+                                    <h4>Moletom Oakley Kanguru</h4> 
+                                    <h5>Protege de rajadas de vento </h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">
+                                <a   class=" btn btn-default  "> R$ 310.00</a>
+                                <a   class="btn  btn-default btn-primary  "> 
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar 
+                                    </span>
+
+                                </a>
+                            </div>  
+                        </div>
+                        <div  class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/Reef-Moletom-Reef-Chop-3888-226311-1-zoom.jpg" width="187px" height="187px"/>
+                                <div>
+                                    <h4>Moletom Reef</h4> 
+                                    <h5> Blusa de Moletom Reef Florence Preto.  </h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">      
+                                <a   class=" btn btn-default  "> R$ 97.00</a>
+                                <a   class="btn  btn-default btn-primary  ">
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>  
+                        </div>
+                        <div class="thumbnail text-center col-md-4 ">
+                            <figure>
+                                <img src="img/Quiksilver-Moletom-Quiksilver-Shiner-II---Infanto-Juvenil-5789-123201-1-zoom.jpg" width="
+                                     187px" height="187px" />
+                                <div>
+                                    <h4>
+                                        MOLETOM QUIKSILVER
+                                    </h4> 
+                                    <h5> Elegante </h5>
+                                </div>
+                            </figure>   
+                            <div class="btn-group">      
+                                <a  class=" btn btn-default"> R$ 290.00</a>
+                                <a  class="btn  btn-default btn-primary">  
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                        Comprar
+                                    </span>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <footer>
-                    <p>Posted by: Hege Refsnes</p>
-                    <p>Contact information: <a href="mailto:someone@example.com">
-                            someone@example.com</a>.</p>
-                </footer>
-            </div>
-        </main>
-    </body>
-</html>
+            </main>
+        </body>
+    </html>
