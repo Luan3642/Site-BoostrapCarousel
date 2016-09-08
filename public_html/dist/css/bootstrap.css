@@ -6733,6 +6733,12 @@ button.close {
     display: block !important;
   }
 }
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
 .visible-print-inline {
   display: none !important;
 }
