@@ -10,8 +10,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width"/>
-        <!-- Latest compiled and minified CSS -->
-
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <link rel="stylesheet" href="dist/css/animate.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,38 +20,41 @@ and open the template in the editor.
             .carousel-inner > .item > a > img {
                 width: 70%;
                 margin: auto;
-
-                .fullscreen{
-                    width: 100%;
-                }
-                .fullscreen2{
-                    width: 60%;
-                }
-            </style>
-
-        </head>
-        <body>
-            <main>
-                <nav class="navbar navbar-inverse">
-                    <div class="container-fluid">
-                        <ul class="nav navbar-nav">
-                            <li ><a href="index.html">MOLETONS</a></li>
-                            <li><a href="camisetas.html">CAMISETAS</a></li>
-                            <li><a href="Tenis.html"> TÊNIS </a></li> 
-                            <li><a href="Oculos.html"> REGATAS </a></li> 
-                        </ul>  
-                    </div>        
-                </nav>
+            }
+            .fullscreen{
+                width: 100%;
+            }
+            .fullscreen2{
+                width: 60%;
+            }
+            footer{
+                background: #333;
+                color: #FFF;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
-                    <div>
-                        <h3 class="text-center">Lançamento </h3>
-                    </div>
-
-                    <div class="thumbnail text-center col-md-4 ">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="index.html">MOLETONS</a></li>
+                        <li><a href="camisetas.html">CAMISETAS</a></li>
+                        <li><a href="Tenis.html"> TÊNIS </a></li> 
+                        <li><a href="Regatas.html"> REGATAS </a></li> 
+                    </ul>  
+                </div>        
+            </nav>
+            <div class="container-fluid">
+                <div>
+                    <h3 class="text-center">Lançamento </h3>
+                </div>
+                <div class="row">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
                         <figure>
                             <img src="tenis-lakai-griffin-preto.jpg" width="215px"  height="215px"/>
                             <div>
-                                <h4>Tênis Lakai</h4> 
+                                <h4>TÊNIS LAKAI GUYMAR BLACK</h4> 
                                 <h5>O lakai guymar black/black suede é um dos modelos mais estilosos da lakai</h5>
                             </div>
                         </figure>   
@@ -64,7 +67,7 @@ and open the template in the editor.
                             </a>
                         </div>  
                     </div>
-                    <div class="thumbnail text-center col-md-4 ">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp">
                         <figure>
                             <img src="img/tenis Oakley.jpg" width="215px" height="215px"/>
                             <div>
@@ -81,12 +84,12 @@ and open the template in the editor.
                             </a>
                         </div>  
                     </div>
-                    <div class="thumbnail text-center col-md-4 ">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
                         <figure>
                             <img src="img_7525.jpg" width="215px" height="215px" />
                             <div>
                                 <h4>
-                                    Tênis Stefan Janoski
+                                    TÊNIS STEFAN JANOSKI
                                 </h4> 
                                 <h5>O tênis nike Zoom SB stefan janoski Canvas Masculino é um original exclusivo que combina visual minimalista </h5>
                             </div>
@@ -102,13 +105,12 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="row">
-                    <div class="thumbnail text-center col-md-4 ">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
                         <figure>
                             <img src="teniSnoop.jrp.jpg" width="187px"  height="187px"/>
                             <div>
-                                <h4>Tênis  Adidas Seeley Snoop</h4> 
-                                <h5> Aquele estilo Snoop Dogg, assinado pelo próprio. A irreverência e pegada rapper ianque está impregnada nesse modelo        </h5>
-
+                                <h4>TÊNIS ADIDAS SEELEY SNOOP </h4> 
+                                <h5> Aquele estilo Snoop Dogg, assinado pelo próprio. A irreverência e pegada rapper ianque está impregnada nesse modelo. </h5>
                             </div>
                         </figure>   
                         <div class="btn-group">
@@ -121,11 +123,11 @@ and open the template in the editor.
                             </a>
                         </div>  
                     </div>
-                    <div  class="thumbnail text-center col-md-4 ">
+                    <div  class="thumbnail text-center col-md-4 wow fadeInUp ">
                         <figure>
                             <img src="full-tenis-authentic-pto.gif" width="173px" height="173px"/>
                             <div>
-                                <h4> Tênis Vans authentic  </h4> 
+                                <h4> TÊNIS VANS AUTHENTIC  </h4> 
                                 <h5> Tênis Vans Authentic Preto/Branco, com recortes no cabedal e calcanhar, aplicação lateral e no calcanhar de tag com logotipo da marca.   </h5>
                             </div>
                         </figure>   
@@ -138,19 +140,19 @@ and open the template in the editor.
                             </a>
                         </div>  
                     </div>
-                    <div class="thumbnail text-center col-md-4 ">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
                         <figure>
                             <img src="821811-MLB20634862042_032016-O.jpg" width="
-                                 200px" height="200px" />
+                                 173px" height="173px" />
                             <div>
                                 <h4>
-                                    Tênis Dc Switch
+                                    TÊNIS DC SWITCH
                                 </h4> 
                                 <h5> Tênis DC Shoes Switch S Preto, possui recorte com acabamento acamurçado, estampa lateral com logo da marca e fecho por cadarço. </h5>
                             </div>
                         </figure>   
                         <div class="btn-group">      
-                            <a  class=" btn btn-default"> R$ 80.00</a>
+                            <a  class=" btn btn-default"> R$ 280.00</a>
                             <a  class="btn  btn-default btn-primary">  
                                 <span class="glyphicon glyphicon-shopping-cart">
                                     Comprar
@@ -159,7 +161,134 @@ and open the template in the editor.
                         </div>  
                     </div>
                 </div>
-                     </div>
-            </main>
-        </body>
-    </html>
+                <div class="row">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="tenis-new-balance-574-azul-marinho.jpg" width="188px"  height="188px"/>
+                            <div>
+                                <h4> TÊNIS NEW BALANCE 574 AZUL MARINHO </h4> 
+                                <h5> new balance 574 é inspirado nos clássicos de corrida. Tem cores mais sólidas e é feito em suede premium e mesh.</h5>
+                            </div>
+                        </figure>   
+                        <div class="btn-group">
+                            <a   class=" btn btn-default  "> R$ 300.00</a>
+                            <a   class="btn  btn-default btn-primary  "> 
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar 
+                                </span>
+                            </a>
+                        </div>  
+                    </div>
+                    <div  class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="tenis-vans-old-skool-azul-marinho.jpg" width="173px" height="173px"/>
+                            <div>
+                                <h4> TÊNIS VANS OLD SKOOL AZUL MARINHO </h4> 
+                                <h5> O sneaker vans Old Skool tem o cabedal em camurça em azul marinho e canvas em azul claro, a sidestripe (listra Vans) em couro branco.  </h5>
+                            </div>
+                        </figure>   
+                        <div class="btn-group">      
+                            <a   class=" btn btn-default  "> R$ 300.00</a>
+                            <a   class="btn  btn-default btn-primary  ">
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="tenis-ous-ueno-x-black-media-essencial-8c260737c3a48e1ef370351ecfb5851e.jpg" width="
+                                 173px" height="173px" />
+                            <div>
+                                <h4>
+                                    TÊNIS ÖUS UENO X BLACK MEDIA ESSENCIAL
+                                </h4> 
+                                <h5> Este modelo da ÖUS é uma collab com a  BLACK MEDIA, este novo modelo vem com um novo solado de perfil baixo, proporcionando estabilidade e maior aderência ao solo.  </h5>
+                            </div>
+                        </figure>   
+                        <div class="btn-group">      
+                            <a  class=" btn btn-default"> R$ 280.00</a>
+                            <a  class="btn  btn-default btn-primary">  
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="ouspreto.jpg" width="187px"  height="187px"/>
+                            <div>
+                                <h4> TÊNIS ÖUS TENENTE PRETO UNI </h4> 
+                                <h5> Este TENENTE UNI é um modelo com toda essência da marca. Além de todo o estilo e atitude possui toda qualidade ÖUS. </h5>
+
+                            </div>
+                        </figure>   
+                        <div class="btn-group">
+                            <a   class=" btn btn-default  "> R$ 239.99</a>
+                            <a   class="btn  btn-default btn-primary  "> 
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar 
+                                </span>
+
+                            </a>
+                        </div>  
+                    </div>
+                    <div  class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="nike-sb-janoski-max-prm-670a06b3bf49763b0f08dada6f596da3.jpg" width="158px" height="158px"/>
+                            <div>
+                                <h4> TÊNIS NIKE SB JANOSKI MAX PRM </h4> 
+                                <h5> O tênis NIKE Stefan Janoski Max Premium foi criado para proporcionar conforto excepcional após o rolê de skate, com um solado extremamente flexível e amortecimento NIKE AIR MAX grande no calcanhar.  </h5>
+                            </div>
+                        </figure>   
+                        <div class="btn-group">      
+                            <a   class=" btn btn-default  "> R$ 300.00</a>
+                            <a   class="btn  btn-default btn-primary  ">
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="thumbnail text-center col-md-4 wow fadeInUp ">
+                        <figure>
+                            <img src="tenis-nike-sb-zoom-stefan-janoski-cnvs-91a4f631afcbcfe4d7549fa1dc558460.jpg" width="
+                                 158px" height="158px" />
+                            <div>
+                                <h4>
+                                    TÊNIS NIKE SB ZOOM STEFAN JANOSKI CNVS
+                                </h4> 
+                                <h5> 
+                                    O tênis NIKE SB ZOOM STEFAN JANOSKI CANVAS é um modelo ímpar. Autêntico que além de combinar o visual com sua ótima proteção contra impactos esta peça carrega todo o contexto e história do lendário skatista </h5>
+                            </div>
+                        </figure>   
+                        <div class="btn-group">      
+                            <a  class=" btn btn-default"> R$ 280.00</a>
+                            <a  class="btn  btn-default btn-primary">  
+                                <span class="glyphicon glyphicon-shopping-cart">
+                                    Comprar
+                                </span>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Av. Rui Barbosa, 5.881, Afonso Pena - São José dos Pinhais/PR | CEP 83.005-340 <br/>
+        (41) 9980-6422
+    </footer>
+    <script src="js/wow.min.js"/></script>
+<script>
+    $(function () {
+        new WOW().init();
+    });
+</script>
+</body>
+</html>
