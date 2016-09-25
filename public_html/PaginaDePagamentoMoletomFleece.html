@@ -35,29 +35,79 @@ and open the template in the editor.
             </div>        
         </nav>
         <div class="container">
-            <div class="col-sm-4">
-                <div class="painel painel-default">
-                    <div class="painel-heading">
-                        <h2 class="painel-title">Sua compra </h2>
-                    </div>
-                    <div class="painel-body">
-                        <img src="fleece-masc-mod-rio-white-po_71602530_888896746369.jpg" class="img-responsive img-thumbnail">
-                    </div>
-                    <dl>
-                        <dt>Nome</dt>
-                        <dd>MOLETOM OAKLEY FLEECE</dd>
-                        
-                        <dt>Tamanho</dt>
-                        <dd> M </dd>
-                        <dt> Cor </dt>
-                        <dd>Verde com branco </dd>
-                        <dt>Preço</dt>
-                        <dd>R$ 390,00</dd>
-                    </dl>
-                </div>
-            </div>
-            <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="painel-title">Sua compra </h2>
+                        </div>
+                        <div class="panel-body">
+                            <img src="fleece-masc-mod-rio-white-po_71602530_888896746369.jpg" class="img-responsive img-thumbnail">
 
+                            <dl>
+                                <dt>Nome</dt>
+                                <dd>MOLETOM OAKLEY FLEECE</dd>                       
+                                <dt>Tamanho</dt>
+                                <dd> M </dd>
+                                <dt> Cor </dt>
+                                <dd>Verde com branco </dd>
+                                <dt>Preço</dt>
+                                <dd>R$ 390,00</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <form>
+                        <fieldset>
+                            <legend>Informações do usuário </legend>
+                        <div class="form-group">
+                            <label for="nome">Nome Completo: </label>
+                            <input id="nome"  class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Digite seu email: </label>
+                            <div class="input-group">
+                                <span class="input-group-addon">@</span>
+                            <input id="email"  class="form-control" type="email">    
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label for="CPF"> CPF: </label>
+                                <input id="CPF"  class="form-control" type="text">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend> Forma de pagamento</legend>
+                            <div class="form-group">
+                                <label for="bandeira">Bandeira:</label>
+                                <select  id="bandeira" class="form-control">
+                                    <option value="visa">Visa</option>
+                                    <option value="visa">Mastercard</option>
+                                    <option value="visa">American Express</option>
+                                </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha" > Digite o número do cartão </label>
+                                    <input id="senha" class="form-control" type="text" />
+                                </div>
+                            <div class="form-group">
+                                <label for="validade">Validade do cartão</label>
+                                <input id="validade" type="month" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv"> CVV</label>
+                                <input  id="cvv" type="text" maxlength="3" class="form-control"/>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary "> 
+                            <a href="CompraRealizada.html" class="  btn-default btn-primary">
+                                <span  class="glyphicon glyphicon-thumbs-up"></span>
+                           Confirmar Pedido
+                            </a>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
         <footer>
