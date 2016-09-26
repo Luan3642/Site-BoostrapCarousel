@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Roupas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <link rel="stylesheet" href="dist/css/animate.css">
+        <link rel="icon" href="icon.png" type="image/x-icon" />
+        <style>
+            footer{
+                background: #333;
+                color: #FFF;
+            }
+            .tab-pane{
+                padding: 10px 0; 
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">MOLETONS</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="Tenis.html"> TÊNIS </a></li> 
+                    <li><a href="Regatas.html"> REGATAS </a></li> 
+                </ul>  
+            </div>        
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="painel-title">Sua compra </h2>
+                        </div>
+                        <div class="panel-body">
+                            <img src="camiseta-huf-x-spitfire-logo-preta.jpg" class="img-responsive img-thumbnail">
+
+                            <dl>
+                                <dt>Nome</dt>
+                                <dd> CAMISETA HUF X SPITFIRE LOGO PRETA</dd>                       
+                                <dt>Tamanho</dt>
+                                <dd> G </dd>
+                                <dt> Cor </dt>
+                                <dd> Preta   </dd>
+                                <dt>Preço</dt>
+                                <dd>R$ 200,00</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <form>
+                        <fieldset>
+                            <legend>Informações do usuário </legend>
+                        <div class="form-group">
+                            <label for="nome">Nome Completo: </label>
+                            <input id="nome"  class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Digite seu email: </label>
+                            <div class="input-group">
+                                <span class="input-group-addon">@</span>
+                            <input id="email"  class="form-control" type="email">    
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label for="CPF"> CPF: </label>
+                                <input id="CPF"  class="form-control" type="text">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend> Forma de pagamento</legend>
+                            <div class="form-group">
+                                <label for="bandeira">Bandeira:</label>
+                                <select  id="bandeira" class="form-control">
+                                    <option value="visa">Visa</option>
+                                    <option value="visa">Mastercard</option>
+                                    <option value="visa">American Express</option>
+                                </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha" > Digite o número do cartão </label>
+                                    <input id="senha" class="form-control" type="text" />
+                                </div>
+                            <div class="form-group">
+                                <label for="validade">Validade do cartão</label>
+                                <input id="validade" type="month" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv"> CVV</label>
+                                <input  id="cvv" type="text" maxlength="3" class="form-control"/>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary "> 
+                            <a href="CompraRealizada.html" class="  btn-default btn-primary">
+                                <span  class="glyphicon glyphicon-thumbs-up"></span>
+                           Confirmar Pedido
+                            </a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Av. Rui Barbosa, 5.881, Afonso Pena - São José dos Pinhais/PR | CEP 83.005-340 <br/>
+            (41) 9694-2425
+        </footer>
+    </body>
+</html>
